@@ -1,0 +1,18 @@
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Keys and secrets — never commit any private key, whatever its file name
+*.pem
+*.key
+*-ssh-key
+*-ssh-key.pub
+id_*
+*@*
+
+# Mac
+.DS_Store
