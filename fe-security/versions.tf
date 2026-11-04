@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.12" # ephemeral resources need >= 1.10
+  required_version = ">= 1.17.0" # ephemeral resources need >= 1.10
 
   cloud {
     organization = "Sandar-Cloud-Lab"
