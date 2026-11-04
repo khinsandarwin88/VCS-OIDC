@@ -17,3 +17,5 @@ terraform {
     }
   }
 }
+
+# add peering module
